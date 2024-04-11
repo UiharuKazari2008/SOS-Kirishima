@@ -1,0 +1,29 @@
+{
+  "name": "sos-kirishima",
+  "version": "1.0.0",
+  "description": "",
+  "main": "patch.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/UiharuKazari2008/SOS-Kirishima.git"
+  },
+  "private": true,
+  "bin": "patch.js",
+  "pkg": {
+    "scripts": [
+      "patch.js"
+    ],
+    "output": "kirishima_patcher",
+    "assets": [],
+    "targets": [
+      "node16-win-x64"
+    ],
+    "outputPath": "build/"
+  },
+  "dependencies": {
+    "request": "^2.88.2"
+  }
+}
